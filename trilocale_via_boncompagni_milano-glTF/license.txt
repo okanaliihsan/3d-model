@@ -1,0 +1,11 @@
+Model Information:
+* title:	Trilocale Via Boncompagni Milano
+* source:	https://sketchfab.com/3d-models/trilocale-via-boncompagni-milano-dd261cf6c2e647cab915f015230bb15e
+* author:	Fabio Siccardi (https://sketchfab.com/FabioSiccardi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Trilocale Via Boncompagni Milano" (https://sketchfab.com/3d-models/trilocale-via-boncompagni-milano-dd261cf6c2e647cab915f015230bb15e) by Fabio Siccardi (https://sketchfab.com/FabioSiccardi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
