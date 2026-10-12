@@ -1,0 +1,9 @@
+# Derleme icin gerekmeyen kaynak model arsivleri.
+# Uygulama yalnizca public/3d-model/apartment/ altindaki glTF'i kullanir.
+*.zip
+*.glb
+*.usdz
+3ds/
+trilocale-via-boncompagni-milano-3ds/
+trilocale_via_boncompagni_milano-glTF/
+dist/
