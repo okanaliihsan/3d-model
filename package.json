@@ -1,0 +1,19 @@
+{
+  "name": "milano-dairesi-3d",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Trilocale Via Boncompagni, Milano - gezilebilir 3D daire sunumu",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "meta": "python tools/extract_metadata.py"
+  },
+  "dependencies": {
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "vite": "5.4.10"
+  }
+}

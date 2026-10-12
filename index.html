@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trilocale Via Boncompagni — Milano</title>
+    <meta
+      name="description"
+      content="Milano Via Boncompagni'deki uc odali dairenin gezilebilir 3D sunumu."
+    />
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <canvas id="stage"></canvas>
+
+    <div id="loader" class="loader">
+      <div class="loader__inner">
+        <p class="loader__eyebrow">Via Boncompagni</p>
+        <h1 class="loader__title">Milano Trilocale</h1>
+        <div class="loader__bar"><span id="loader-fill"></span></div>
+        <p class="loader__pct"><span id="loader-pct">0</span>%</p>
+      </div>
+    </div>
+
+    <header class="topbar">
+      <div class="topbar__brand">
+        <span class="topbar__mark"></span>
+        <div>
+          <strong>Via Boncompagni</strong>
+          <small>Milano · Trilocale</small>
+        </div>
+      </div>
+      <nav class="topbar__stats" id="stats"></nav>
+    </header>
+
+    <aside class="panel">
+      <div class="panel__head">
+        <p class="panel__eyebrow">Durak <span id="stop-index">1</span>/<span id="stop-total">1</span></p>
+        <h2 id="room-name">—</h2>
+        <p id="room-desc" class="panel__desc">—</p>
+      </div>
+
+      <div class="panel__section">
+        <p class="panel__label">Bu odadaki esyalar</p>
+        <ul id="item-list" class="items"></ul>
+      </div>
+
+      <div class="panel__section">
+        <p class="panel__label">Kat plani</p>
+        <div id="plan" class="plan"></div>
+      </div>
+
+      <div class="panel__section">
+        <p class="panel__label">Odalar</p>
+        <ul id="room-list" class="rooms"></ul>
+      </div>
+    </aside>
+
+    <div class="focus" id="focus" hidden>
+      <div class="focus__text">
+        <p class="focus__eyebrow" id="focus-room">—</p>
+        <h3 id="focus-label">—</h3>
+        <p id="focus-note">—</p>
+        <dl class="focus__dims" id="focus-dims"></dl>
+      </div>
+      <button class="focus__close" id="focus-close" type="button">Odaklanmayi birak</button>
+    </div>
+
+    <div class="hint" id="hint">
+      <p><b>Kaydir</b> — daire icinde ilerle &nbsp;·&nbsp; <b>Surukle</b> — etrafa bak &nbsp;·&nbsp; <b>Tikla</b> — esyaya odaklan</p>
+    </div>
+
+    <div class="progress"><span id="progress-fill"></span></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
